@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bit-by-bit-hackathon-2019/static/css/main.ffd10ce9.chunk.css",
+    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.56ea280a.chunk.js",
+    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.56ea280a.chunk.js.map",
+    "runtime~main.js": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js",
+    "runtime~main.js.map": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js.map",
+    "static/js/2.7ad91dd1.chunk.js": "/bit-by-bit-hackathon-2019/static/js/2.7ad91dd1.chunk.js",
+    "static/js/2.7ad91dd1.chunk.js.map": "/bit-by-bit-hackathon-2019/static/js/2.7ad91dd1.chunk.js.map",
+    "index.html": "/bit-by-bit-hackathon-2019/index.html",
+    "precache-manifest.96c9b76a0db30dc903e505ad5081c56f.js": "/bit-by-bit-hackathon-2019/precache-manifest.96c9b76a0db30dc903e505ad5081c56f.js",
+    "service-worker.js": "/bit-by-bit-hackathon-2019/service-worker.js",
+    "static/css/main.ffd10ce9.chunk.css.map": "/bit-by-bit-hackathon-2019/static/css/main.ffd10ce9.chunk.css.map"
+  }
+}
