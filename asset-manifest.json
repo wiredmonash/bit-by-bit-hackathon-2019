@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bit-by-bit-hackathon-2019/static/css/main.5d4ec601.chunk.css",
-    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.588af7cd.chunk.js",
-    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.588af7cd.chunk.js.map",
+    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.5836be6a.chunk.js",
+    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.5836be6a.chunk.js.map",
     "runtime~main.js": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js",
     "runtime~main.js.map": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js.map",
     "static/js/2.7b49400c.chunk.js": "/bit-by-bit-hackathon-2019/static/js/2.7b49400c.chunk.js",
     "static/js/2.7b49400c.chunk.js.map": "/bit-by-bit-hackathon-2019/static/js/2.7b49400c.chunk.js.map",
     "index.html": "/bit-by-bit-hackathon-2019/index.html",
-    "precache-manifest.c6d2d1b8c0e6cc870fc291a138ecf911.js": "/bit-by-bit-hackathon-2019/precache-manifest.c6d2d1b8c0e6cc870fc291a138ecf911.js",
+    "precache-manifest.d9aaf632c303ad59e23aad047eee32ef.js": "/bit-by-bit-hackathon-2019/precache-manifest.d9aaf632c303ad59e23aad047eee32ef.js",
     "service-worker.js": "/bit-by-bit-hackathon-2019/service-worker.js",
     "static/css/main.5d4ec601.chunk.css.map": "/bit-by-bit-hackathon-2019/static/css/main.5d4ec601.chunk.css.map"
   }
