@@ -24,7 +24,14 @@ function Hero() {
 					<img src={WiredLogo} style={{ height: 20 }} /> presents...
 				</div>
 				<div>
-					<h1 style={{ fontFamily: 'Courier', fontSize: 70, fontWeight: 500 }}>
+					<h1
+						style={{
+							fontFamily: 'Courier',
+							fontSize: 70,
+							fontWeight: 500,
+							color: 'var(--primary-color)'
+						}}
+					>
 						Bit by Bit Hack
 					</h1>
 				</div>

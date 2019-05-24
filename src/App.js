@@ -2,7 +2,8 @@ import React from 'react';
 
 import Header from './components/Header';
 import Hero from './components/Hero/Hero';
-import moment from 'moment-timezone';
+import Schedule from './components/Schedule/Schedule';
+
 function App() {
 	return (
 		<div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -25,10 +26,17 @@ function App() {
 					style={{
 						backgroundColor: 'var(--primary-color)',
 						color: 'white',
+						padding: '10px 12px',
+						display: 'flex',
+						flexDirection: 'column',
+						alignItems: 'center',
 						flex: 1
 					}}
 				>
-					Schedule
+					<div style={{ width: '80%' }}>
+						<h1>Schedule</h1>
+						<Schedule />
+					</div>
 				</div>
 			</div>
 		</div>
