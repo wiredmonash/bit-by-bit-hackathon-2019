@@ -3,6 +3,8 @@ import moment from 'moment-timezone';
 
 import { DAY1, DAY2, DAY3 } from './data';
 
+import Event from './Event';
+
 import './schedule.css';
 
 const headingStyles = {
@@ -114,32 +116,7 @@ class Schedule extends React.Component {
 					{showday1 && (
 						<div>
 							{DAY1.events.map((event, index) => {
-								return (
-									<div key={index}>
-										<div
-											style={{
-												borderLeft: 'solid white 1px'
-											}}
-										>
-											<div
-												style={{
-													width: 20,
-													height: 20,
-													borderRadius: '100%',
-													border: 'solid white 3px',
-													marginLeft: -15,
-													backgroundColor: 'var(--secondary-color)'
-												}}
-											/>
-											<div style={{ marginLeft: 15 }}>
-												<div>
-													<h2>{event.title}</h2>
-												</div>
-												<div>{event.shortDescrip}</div>
-											</div>
-										</div>
-									</div>
-								);
+								return <Event event={event} key={index} />;
 							})}
 						</div>
 					)}

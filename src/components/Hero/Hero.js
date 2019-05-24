@@ -17,7 +17,8 @@ function Hero() {
 					display: 'flex',
 					flexDirection: 'column',
 					justifyContent: 'center',
-					color: 'var(--primary-color)'
+					color: 'var(--primary-color)',
+					padding: '30px 20px'
 				}}
 			>
 				<div>
