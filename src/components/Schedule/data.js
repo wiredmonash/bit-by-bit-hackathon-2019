@@ -6,6 +6,12 @@ export const DAY1 = {
 			endTime: '2019-08-23 8pm',
 			title: 'Mixer Night',
 			shortDescrip: 'Mixer Night'
+		},
+		{
+			startTime: '2019-08-23 6pm',
+			endTime: '2019-08-23 8pm',
+			title: 'Mixer Night',
+			shortDescrip: 'Mixer Night'
 		}
 	]
 };

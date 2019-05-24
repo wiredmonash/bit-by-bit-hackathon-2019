@@ -7,10 +7,12 @@ import './schedule.css';
 
 const headingStyles = {
 	SELECTED: {
-		color: 'var(--secondary-color)'
+		color: 'var(--secondary-color)',
+		textDecoration: 'underline'
 	},
 	NOT_SELECTED: {
-		color: '#aaa'
+		color: '#aaa',
+		textDecoration: 'underline'
 	}
 };
 class Schedule extends React.Component {
@@ -22,7 +24,7 @@ class Schedule extends React.Component {
 	};
 
 	componentDidMount() {
-		const today = moment('2019-08-25');
+		const today = moment();
 		if (moment(DAY1.date).isSame(today, 'd')) {
 			this.setState({
 				today,
@@ -108,13 +110,40 @@ class Schedule extends React.Component {
 						Day 3
 					</h2>
 				</div>
-				{showday1 && (
-					<div>
-						{DAY1.events.map((event, index) => {
-							return <div key={index}>{event.title}</div>;
-						})}
-					</div>
-				)}
+				<div>
+					{showday1 && (
+						<div>
+							{DAY1.events.map((event, index) => {
+								return (
+									<div key={index}>
+										<div
+											style={{
+												borderLeft: 'solid white 1px'
+											}}
+										>
+											<div
+												style={{
+													width: 20,
+													height: 20,
+													borderRadius: '100%',
+													border: 'solid white 3px',
+													marginLeft: -15,
+													backgroundColor: 'var(--secondary-color)'
+												}}
+											/>
+											<div style={{ marginLeft: 15 }}>
+												<div>
+													<h2>{event.title}</h2>
+												</div>
+												<div>{event.shortDescrip}</div>
+											</div>
+										</div>
+									</div>
+								);
+							})}
+						</div>
+					)}
+				</div>
 				{showday2 && 'Day 2 Schedule'}
 				{showday3 && 'Day 3 Schedule'}
 			</div>

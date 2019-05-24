@@ -36,6 +36,20 @@ function Hero() {
 					</h1>
 				</div>
 				<div style={{ fontSize: 70 }}>2019</div>
+				<div>
+					<a
+						href="#"
+						style={{
+							backgroundColor: 'var(--primary-color)',
+							color: 'var(--secondary-color)',
+							padding: 10,
+							fontWeight: 700,
+							textDecoration: 'none'
+						}}
+					>
+						Register
+					</a>
+				</div>
 			</div>
 		</div>
 	);
