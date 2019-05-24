@@ -80,6 +80,7 @@ class Schedule extends React.Component {
 								showday1: true
 							})
 						}
+						className="text-select-none"
 					>
 						Day 1
 					</h2>
@@ -94,6 +95,7 @@ class Schedule extends React.Component {
 								showday1: false
 							})
 						}
+						className="text-select-none"
 					>
 						Day 2
 					</h2>
@@ -108,6 +110,7 @@ class Schedule extends React.Component {
 								showday1: false
 							})
 						}
+						className="text-select-none"
 					>
 						Day 3
 					</h2>
