@@ -43,6 +43,9 @@ function Event({ event, key }) {
 					<div>
 						<h2>{event.title}</h2>
 					</div>
+					<span>{`${moment(event.startTime).format('hh:mm a')} - ${moment(
+						event.endTime
+					).format('hh:mm a')}`}</span>
 					<div>{event.shortDescrip}</div>
 				</div>
 			</div>

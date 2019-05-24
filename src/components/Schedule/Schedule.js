@@ -121,8 +121,20 @@ class Schedule extends React.Component {
 						</div>
 					)}
 				</div>
-				{showday2 && 'Day 2 Schedule'}
-				{showday3 && 'Day 3 Schedule'}
+				{showday2 && (
+					<div>
+						{DAY2.events.map((event, index) => {
+							return <Event event={event} key={index} />;
+						})}
+					</div>
+				)}
+				{showday3 && (
+					<div>
+						{DAY3.events.map((event, index) => {
+							return <Event event={event} key={index} />;
+						})}
+					</div>
+				)}
 			</div>
 		);
 	}
