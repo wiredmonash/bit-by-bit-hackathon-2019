@@ -1,6 +1,5 @@
 import React from 'react';
-import DarkLogo from '../../img/logo-dark.png';
-import WiredLogo from '../../img/wired-logo.png';
+import WiredLogo from '../../img/wired-logo.svg';
 
 function Hero() {
 	return (

@@ -49,7 +49,7 @@ function App() {
 						alignItems: 'center',
 						flex: 1
 					}}
-					id="schedule"
+					id="judges"
 				>
 					<div style={{ width: '80%', padding: 10 }}>
 						<h1 style={{ color: 'var(--primary-color)' }}>Judges</h1>
@@ -70,6 +70,7 @@ function App() {
 				>
 					<div style={{ width: '80%', padding: 10 }}>
 						<h1>Sponsors</h1>
+						<em>Event Sponsors To be Announced</em>
 					</div>
 				</div>
 			</div>

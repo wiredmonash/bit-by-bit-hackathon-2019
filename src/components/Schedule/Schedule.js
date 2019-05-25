@@ -89,7 +89,7 @@ class Schedule extends React.Component {
 						}
 						className="text-select-none"
 					>
-						Day 1 - Friday 23rd Aug
+						Day 1 - Fri 23rd Aug
 					</h2>
 					<h2
 						style={
@@ -104,7 +104,7 @@ class Schedule extends React.Component {
 						}
 						className="text-select-none"
 					>
-						Day 2 - Saturday 24th Aug
+						Day 2 - Sat 24th Aug
 					</h2>
 					<h2
 						style={
@@ -119,7 +119,7 @@ class Schedule extends React.Component {
 						}
 						className="text-select-none"
 					>
-						Day 3 - Sunday 25th Aug
+						Day 3 - Sun 25th Aug
 					</h2>
 				</div>
 				<div>
