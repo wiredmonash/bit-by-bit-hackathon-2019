@@ -44,11 +44,6 @@ export const DAY2 = {
 			startTime: '2019-08-23 18:00',
 			endTime: '2019-08-23 19:00',
 			title: 'Dinner'
-		},
-		{
-			startTime: '2019-08-23 23:59',
-			endTime: '2019-08-23 23:59',
-			title: 'End of Night'
 		}
 	]
 };

@@ -11,12 +11,16 @@ const headingStyles = {
 	SELECTED: {
 		color: 'var(--secondary-color)',
 		textDecoration: 'underline',
-		cursor: 'pointer'
+		cursor: 'pointer',
+		marginLeft: 5,
+		marginRight: 5
 	},
 	NOT_SELECTED: {
 		color: '#aaa',
 		textDecoration: 'underline',
-		cursor: 'pointer'
+		cursor: 'pointer',
+		marginLeft: 5,
+		marginRight: 5
 	}
 };
 class Schedule extends React.Component {
@@ -84,7 +88,7 @@ class Schedule extends React.Component {
 						}
 						className="text-select-none"
 					>
-						Day 1
+						Day 1 - Friday 23rd Aug
 					</h2>
 					<h2
 						style={
@@ -99,7 +103,7 @@ class Schedule extends React.Component {
 						}
 						className="text-select-none"
 					>
-						Day 2
+						Day 2 - Saturday 24th Aug
 					</h2>
 					<h2
 						style={
@@ -114,7 +118,7 @@ class Schedule extends React.Component {
 						}
 						className="text-select-none"
 					>
-						Day 3
+						Day 3 - Sunday 25th Aug
 					</h2>
 				</div>
 				<div>
