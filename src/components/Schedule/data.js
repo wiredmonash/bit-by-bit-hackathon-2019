@@ -25,6 +25,27 @@ export const DAY2 = {
 			shortDescrip: 'Register for your event!'
 		},
 		{
+			startTime: '2019-08-23 9:00',
+			endTime: '2019-08-23 9:30',
+			title: 'Open',
+			shortDescrip: 'Opening of the Hackathon'
+		},
+		{
+			startTime: '2019-08-23 9:30',
+			endTime: '2019-08-23 9:30',
+			title: 'Hacking Starts!'
+		},
+		{
+			startTime: '2019-08-23 12:00',
+			endTime: '2019-08-23 12:30',
+			title: 'Lunch'
+		},
+		{
+			startTime: '2019-08-23 18:00',
+			endTime: '2019-08-23 19:00',
+			title: 'Dinner'
+		},
+		{
 			startTime: '2019-08-23 23:59',
 			endTime: '2019-08-23 23:59',
 			title: 'End of Night'

@@ -27,16 +27,27 @@ function Hero() {
 				<div>
 					<h1
 						style={{
-							fontFamily: 'Courier',
+							fontFamily: 'Courier New',
 							fontSize: 70,
-							fontWeight: 500,
+							fontWeight: 700,
 							color: 'var(--primary-color)'
 						}}
 					>
 						Bit by Bit Hack
 					</h1>
 				</div>
-				<div style={{ fontSize: 70 }}>2019</div>
+				<div style={{ fontSize: 40 }}>2019</div>
+				<div
+					style={{
+						fontSize: 20,
+						marginTop: 10,
+						marginBottom: 10,
+						fontWeight: 700
+					}}
+				>
+					Monash University Clayton Campus, <br />
+					23rd August 2019 - 25th August 2019
+				</div>
 				<div>
 					<a
 						href="#"
