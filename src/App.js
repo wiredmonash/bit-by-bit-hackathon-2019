@@ -33,7 +33,7 @@ function App() {
 						flex: 1
 					}}
 				>
-					<div style={{ width: '80%' }}>
+					<div style={{ width: '80%', padding: 10 }}>
 						<h1>Schedule</h1>
 						<Schedule />
 					</div>

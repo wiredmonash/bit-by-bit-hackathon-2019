@@ -10,11 +10,13 @@ import './schedule.css';
 const headingStyles = {
 	SELECTED: {
 		color: 'var(--secondary-color)',
-		textDecoration: 'underline'
+		textDecoration: 'underline',
+		cursor: 'pointer'
 	},
 	NOT_SELECTED: {
 		color: '#aaa',
-		textDecoration: 'underline'
+		textDecoration: 'underline',
+		cursor: 'pointer'
 	}
 };
 class Schedule extends React.Component {

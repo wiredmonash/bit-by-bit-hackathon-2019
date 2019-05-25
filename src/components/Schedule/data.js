@@ -36,9 +36,9 @@ export const DAY3 = {
 	date: '2019-08-25',
 	events: [
 		{
-			startTime: '2019-08-23 8:00',
-			endTime: '2019-08-23 9:00',
-			title: 'Registration',
+			startTime: '2019-08-23 00:00',
+			endTime: '2019-08-23 13:00',
+			title: 'Hacking Continues',
 			shortDescrip: 'Register for your event!'
 		},
 		{
