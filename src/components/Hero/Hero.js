@@ -1,7 +1,7 @@
 import React from 'react';
 import WiredLogo from '../../img/wired-logo.svg';
 
-function Hero() {
+function Hero({ handleScheduleClick }) {
 	return (
 		<div
 			style={{
@@ -27,7 +27,7 @@ function Hero() {
 					<h1
 						style={{
 							fontFamily: 'Courier New',
-							fontSize: 70,
+							fontSize: 50,
 							fontWeight: 700,
 							color: 'var(--primary-color)'
 						}}
@@ -35,7 +35,7 @@ function Hero() {
 						Bit by Bit Hack
 					</h1>
 				</div>
-				<div style={{ fontSize: 40 }}>2019</div>
+				<div style={{ fontSize: 30 }}>2019</div>
 				<div
 					style={{
 						fontSize: 20,
@@ -49,16 +49,35 @@ function Hero() {
 				</div>
 				<div>
 					<a
-						href="#"
+						href="https://www.eventbrite.com.au/e/bit-by-bit-hackathon-2019-tickets-62388086446"
+						target="_blank"
+						rel="noopener noreferrer"
 						style={{
 							backgroundColor: 'var(--primary-color)',
 							color: 'var(--secondary-color)',
 							padding: 10,
 							fontWeight: 700,
-							textDecoration: 'none'
+							textDecoration: 'none',
+							margin: 5
 						}}
 					>
 						Register
+					</a>
+					<a
+						onClick={handleScheduleClick}
+						target="_blank"
+						rel="noopener noreferrer"
+						style={{
+							backgroundColor: 'var(--primary-color)',
+							color: 'var(--secondary-color)',
+							padding: 10,
+							fontWeight: 700,
+							textDecoration: 'none',
+							cursor: 'pointer',
+							margin: 5
+						}}
+					>
+						View schedule
 					</a>
 				</div>
 			</div>
