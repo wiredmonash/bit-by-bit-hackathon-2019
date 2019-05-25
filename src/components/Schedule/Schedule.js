@@ -72,7 +72,8 @@ class Schedule extends React.Component {
 					style={{
 						display: 'flex',
 						flexDirection: 'row',
-						justifyContent: 'space-evenly'
+						justifyContent: 'space-evenly',
+						flexWrap: 'wrap'
 					}}
 				>
 					<h2
