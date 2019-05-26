@@ -15,6 +15,7 @@ class App extends React.Component {
 		this.judges = React.createRef();
 		this.top = React.createRef();
 		this.prizes = React.createRef();
+		this.criteria = React.createRef();
 	}
 
 	scroll(ref) {
@@ -44,6 +45,8 @@ class App extends React.Component {
 						<Hero
 							handleScheduleClick={() => this.scroll(this.schedule)}
 							handlePrizes={() => this.scroll(this.prizes)}
+							handleJudges={() => this.scroll(this.judges)}
+							handleJudgingCriteria={() => this.scroll(this.criteria)}
 						/>
 					</div>
 					<div
@@ -157,12 +160,29 @@ class App extends React.Component {
 							alignItems: 'center',
 							flex: 1
 						}}
+						ref={this.criteria}
+					>
+						<div style={{ width: '80%', padding: 10 }}>
+							<h1>Judging Criteria</h1>
+							<em>Judging Criteria To be Announced</em>
+						</div>
+					</div>
+					<div
+						style={{
+							backgroundColor: 'var(--secondary-color)',
+							color: 'var(--primary-color)',
+							padding: '10px 12px',
+							display: 'flex',
+							flexDirection: 'column',
+							alignItems: 'center',
+							flex: 1
+						}}
 						ref={this.sponsors}
 						id="sponsors"
 					>
 						<div style={{ width: '80%', padding: 10 }}>
-							<h1>Sponsors</h1>
-							<em>Event Sponsors To be Announced</em>
+							<h1 style={{ color: 'var(--primary-color)' }}>Sponsors</h1>
+							<em>Sponsors To be Announced</em>
 						</div>
 					</div>
 				</div>
@@ -176,7 +196,6 @@ class App extends React.Component {
 						alignItems: 'center',
 						flex: 1
 					}}
-					id="schedule"
 				>
 					<div style={{ width: '80%', padding: 10, textAlign: 'center' }}>
 						<h1 style={{ color: 'var(--primary-color)' }}>
