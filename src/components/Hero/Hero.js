@@ -62,7 +62,7 @@ function Hero({
 					}}
 				>
 					<a
-						href="https://www.eventbrite.com.au/e/bit-by-bit-hackathon-2019-tickets-62388086446"
+						href="https://www.eventbrite.com.au/e/bit-by-bit-hackathon-2019-tickets-62415133344"
 						target="_blank"
 						rel="noopener noreferrer"
 						style={{
