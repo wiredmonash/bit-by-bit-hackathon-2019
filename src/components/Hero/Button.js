@@ -14,6 +14,7 @@ function Button({ onClick, children, style }) {
 				margin: 5,
 				...style
 			}}
+			className="text-select-none"
 		>
 			{children}
 		</span>
