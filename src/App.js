@@ -58,7 +58,7 @@ class App extends React.Component {
 							<div style={{ display: 'flex', width: '100%', flexWrap: 'wrap' }}>
 								<div style={{ flex: 1 }}>
 									<p>
-										Bit by Bit Hackathon is our hackathon for first-time hackers
+										Bit by Bit Hackathon is our hackathon for beginning hackers
 										and is only available to Monash University students.
 									</p>
 									<p>
