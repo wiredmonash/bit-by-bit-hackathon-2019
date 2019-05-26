@@ -1,7 +1,8 @@
 import React from 'react';
 import WiredLogo from '../../img/wired-logo.svg';
+import Button from './Button';
 
-function Hero({ handleScheduleClick }) {
+function Hero({ handlePrizes, handleScheduleClick }) {
 	return (
 		<div
 			style={{
@@ -21,7 +22,8 @@ function Hero({ handleScheduleClick }) {
 				}}
 			>
 				<div>
-					<img src={WiredLogo} style={{ height: 20 }} /> presents...
+					<img src={WiredLogo} style={{ height: 20 }} alt="wired logo" />{' '}
+					presents...
 				</div>
 				<div>
 					<h1
@@ -47,7 +49,13 @@ function Hero({ handleScheduleClick }) {
 					Monash University Clayton Campus, <br />
 					23rd August 2019 - 25th August 2019
 				</div>
-				<div>
+				<div
+					style={{
+						display: 'flex',
+						flexWrap: 'wrap',
+						justifyContent: 'space-evenly'
+					}}
+				>
 					<a
 						href="https://www.eventbrite.com.au/e/bit-by-bit-hackathon-2019-tickets-62388086446"
 						target="_blank"
@@ -63,22 +71,8 @@ function Hero({ handleScheduleClick }) {
 					>
 						Register
 					</a>
-					<a
-						onClick={handleScheduleClick}
-						target="_blank"
-						rel="noopener noreferrer"
-						style={{
-							backgroundColor: 'var(--primary-color)',
-							color: 'var(--secondary-color)',
-							padding: 10,
-							fontWeight: 700,
-							textDecoration: 'none',
-							cursor: 'pointer',
-							margin: 5
-						}}
-					>
-						View schedule
-					</a>
+					<Button onClick={handleScheduleClick}>View Schedule</Button>
+					<Button onClick={handlePrizes}>View Prizes</Button>
 				</div>
 			</div>
 		</div>

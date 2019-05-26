@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import Schedule from './components/Schedule/Schedule';
 
 import Pitches from './img/pitches-min.jpg';
+import Button from './components/Hero/Button';
 
 class App extends React.Component {
 	constructor() {
@@ -12,6 +13,8 @@ class App extends React.Component {
 		this.sponsors = React.createRef();
 		this.schedule = React.createRef();
 		this.judges = React.createRef();
+		this.top = React.createRef();
+		this.prizes = React.createRef();
 	}
 
 	scroll(ref) {
@@ -20,8 +23,8 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div style={{ display: 'flex', flexDirection: 'column' }}>
-				<Header handleScheduleClick={() => this.scroll(this.schedule)} />
+			<div style={{ display: 'flex', flexDirection: 'column' }} ref={this.top}>
+				<Header />
 				<div
 					style={{
 						minHeight: '100vh',
@@ -38,7 +41,10 @@ class App extends React.Component {
 							display: 'flex'
 						}}
 					>
-						<Hero handleScheduleClick={() => this.scroll(this.schedule)} />
+						<Hero
+							handleScheduleClick={() => this.scroll(this.schedule)}
+							handlePrizes={() => this.scroll(this.prizes)}
+						/>
 					</div>
 					<div
 						style={{
@@ -79,7 +85,11 @@ class App extends React.Component {
 									</p>
 								</div>
 								<div style={{ marginLeft: 10 }}>
-									<img src={Pitches} style={{ width: 400, maxWidth: '80vw' }} />
+									<img
+										src={Pitches}
+										style={{ width: 400, maxWidth: '80vw' }}
+										alt="Unihack mini 2017"
+									/>
 								</div>
 							</div>
 						</div>
@@ -94,6 +104,7 @@ class App extends React.Component {
 							alignItems: 'center',
 							flex: 1
 						}}
+						ref={this.prizes}
 					>
 						<div style={{ width: '80%', padding: 10 }}>
 							<h1 style={{ color: 'var(--primary-color)' }}>Prizes</h1>
@@ -178,6 +189,25 @@ class App extends React.Component {
 						</div>
 					</div>
 				</div>
+				<Button
+					style={{
+						width: 35,
+						height: 35,
+						bottom: 0,
+						right: 0,
+						position: 'sticky',
+						backgroundColor: 'green',
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center'
+					}}
+					onClick={() => this.scroll(this.top)}
+				>
+					<i
+						class="fas fa-chevron-up"
+						style={{ fontSize: 30, color: 'white' }}
+					/>
+				</Button>
 			</div>
 		);
 	}

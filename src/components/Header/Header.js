@@ -10,12 +10,13 @@ function Header() {
 				padding: 20
 			}}
 		>
-			<div style={{ width: '100%' }}>
+			<div style={{ width: '100%', display: 'flex' }}>
 				<div
 					style={{
 						display: 'flex',
 						flexDirection: 'row',
-						alignItems: 'center'
+						alignItems: 'center',
+						flex: 1
 					}}
 				>
 					<img src={Logo} alt="logo" style={{ height: 50 }} />
