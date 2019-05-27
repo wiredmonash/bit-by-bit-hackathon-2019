@@ -70,6 +70,7 @@ class App extends React.Component {
 										Bit by Bit Hackathon is our hackathon for beginning hackers
 										and is only available to Monash University students.
 									</p>
+									<p>Teams have to be between 4 to 6 people in size.</p>
 									<p>
 										Not sure what a hackthon is? Or perhaps Interested in being
 										part of a hackathon but don't know where to start? Bit by
