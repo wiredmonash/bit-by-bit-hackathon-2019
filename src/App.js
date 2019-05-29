@@ -25,7 +25,13 @@ class App extends React.Component {
 	render() {
 		return (
 			<div style={{ display: 'flex', flexDirection: 'column' }} ref={this.top}>
-				<Header />
+				<Header
+					handleTop={() => this.scroll(this.top)}
+					handleScheduleClick={() => this.scroll(this.schedule)}
+					handlePrizes={() => this.scroll(this.prizes)}
+					handleJudges={() => this.scroll(this.judges)}
+					handleTeam={() => this.scroll(this.team)}
+				/>
 				<div
 					style={{
 						minHeight: '100vh',

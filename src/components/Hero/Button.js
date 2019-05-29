@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Button({ onClick, children, style }) {
+function Button({ onClick, children, style, href }) {
 	return (
 		<span
-			onClick={onClick}
+			onClick={href ? () => (window.location = href) : onClick}
 			style={{
 				backgroundColor: style ? style.backgroundColor : 'var(--primary-color)',
 				color: style ? style.color : 'var(--secondary-color)',
