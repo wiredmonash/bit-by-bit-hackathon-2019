@@ -2,12 +2,7 @@ import React from 'react';
 import WiredLogo from '../../img/wired-logo.svg';
 import Button from './Button';
 
-function Hero({
-	handlePrizes,
-	handleScheduleClick,
-	handleJudges,
-	handleJudgingCriteria
-}) {
+function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
 	return (
 		<div
 			style={{
@@ -79,7 +74,7 @@ function Hero({
 					<Button onClick={handleScheduleClick}>View Schedule</Button>
 					<Button onClick={handlePrizes}>View Prizes</Button>
 					<Button onClick={handleJudges}>View Judges</Button>
-					<Button onClick={handleJudgingCriteria}>View Judging Criteria</Button>
+					<Button onClick={handleTeam}>View Team</Button>
 				</div>
 			</div>
 		</div>

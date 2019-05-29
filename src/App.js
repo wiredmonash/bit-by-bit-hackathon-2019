@@ -15,7 +15,7 @@ class App extends React.Component {
 		this.judges = React.createRef();
 		this.top = React.createRef();
 		this.prizes = React.createRef();
-		this.criteria = React.createRef();
+		this.team = React.createRef();
 	}
 
 	scroll(ref) {
@@ -46,7 +46,7 @@ class App extends React.Component {
 							handleScheduleClick={() => this.scroll(this.schedule)}
 							handlePrizes={() => this.scroll(this.prizes)}
 							handleJudges={() => this.scroll(this.judges)}
-							handleJudgingCriteria={() => this.scroll(this.criteria)}
+							handleTeam={() => this.scroll(this.team)}
 						/>
 					</div>
 					<div
@@ -96,6 +96,19 @@ class App extends React.Component {
 									/>
 								</div>
 							</div>
+							<hr />
+							<div>
+								<h1>Code of Conduct</h1>
+								<p>
+									This hackathon follows{' '}
+									<a
+										href="https://hackcodeofconduct.org/"
+										style={{ color: 'var(--secondary-color' }}
+									>
+										The Hack of Conduct
+									</a>
+								</p>
+							</div>
 						</div>
 					</div>
 					<div
@@ -143,31 +156,59 @@ class App extends React.Component {
 							alignItems: 'center',
 							flex: 1
 						}}
-						ref={this.judges}
-						id="judges"
+						ref={this.team}
 					>
 						<div style={{ width: '80%', padding: 10 }}>
-							<h1 style={{ color: 'var(--primary-color)' }}>Judges</h1>
-							<em>Judges To be Announced</em>
+							<h1 style={{ color: 'var(--primary-color)' }}>Team</h1>
+							<h2>MC</h2>
+							<div>
+								<em>MC to be announced</em>
+							</div>
+							<h2>Event Leads</h2>
+							<div className="flex-row">
+								<div className="row">
+									<h3>Eric Jiang</h3>
+									<span>
+										Graduate Rep <br />
+									</span>
+								</div>
+								<div className="row">
+									<h3>Event Lead #2</h3>
+									<span>
+										<em>Title</em> <br />
+									</span>
+								</div>
+								<div className="row">
+									<h3>Event Lead #2</h3>
+									<span>
+										<em>Title</em> <br />
+									</span>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div
 						style={{
 							backgroundColor: 'var(--primary-color)',
-							color: 'white',
+							color: 'var(--secondary-color)',
 							padding: '10px 12px',
 							display: 'flex',
 							flexDirection: 'column',
 							alignItems: 'center',
 							flex: 1
 						}}
-						ref={this.criteria}
+						ref={this.judges}
+						id="judges"
 					>
 						<div style={{ width: '80%', padding: 10 }}>
+							<h1>Judges</h1>
+							<em>Judges To be Announced</em>
+							<hr />
 							<h1>Judging Criteria</h1>
 							<em>Judging Criteria To be Announced</em>
 						</div>
 					</div>
+
 					<div
 						style={{
 							backgroundColor: 'var(--secondary-color)',
