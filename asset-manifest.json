@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bit-by-bit-hackathon-2019/static/css/main.e5861628.chunk.css",
-    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.050f25f2.chunk.js",
-    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.050f25f2.chunk.js.map",
+    "main.css": "/bit-by-bit-hackathon-2019/static/css/main.07c1c207.chunk.css",
+    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.2d914cb6.chunk.js",
+    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.2d914cb6.chunk.js.map",
     "runtime~main.js": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js",
     "runtime~main.js.map": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js.map",
-    "static/js/2.58d405c9.chunk.js": "/bit-by-bit-hackathon-2019/static/js/2.58d405c9.chunk.js",
-    "static/js/2.58d405c9.chunk.js.map": "/bit-by-bit-hackathon-2019/static/js/2.58d405c9.chunk.js.map",
+    "static/js/2.d514f0ed.chunk.js": "/bit-by-bit-hackathon-2019/static/js/2.d514f0ed.chunk.js",
+    "static/js/2.d514f0ed.chunk.js.map": "/bit-by-bit-hackathon-2019/static/js/2.d514f0ed.chunk.js.map",
     "index.html": "/bit-by-bit-hackathon-2019/index.html",
-    "precache-manifest.946c5018be77ab51bcd26bda3fff32f5.js": "/bit-by-bit-hackathon-2019/precache-manifest.946c5018be77ab51bcd26bda3fff32f5.js",
+    "precache-manifest.9d0514a4baf0365e7e8f027a9b685c44.js": "/bit-by-bit-hackathon-2019/precache-manifest.9d0514a4baf0365e7e8f027a9b685c44.js",
     "service-worker.js": "/bit-by-bit-hackathon-2019/service-worker.js",
-    "static/css/main.e5861628.chunk.css.map": "/bit-by-bit-hackathon-2019/static/css/main.e5861628.chunk.css.map",
+    "static/css/main.07c1c207.chunk.css.map": "/bit-by-bit-hackathon-2019/static/css/main.07c1c207.chunk.css.map",
     "static/media/bit-by-bit-single.svg": "/bit-by-bit-hackathon-2019/static/media/bit-by-bit-single.83d7989e.svg",
     "static/media/pitches-min.jpg": "/bit-by-bit-hackathon-2019/static/media/pitches-min.f2cb27d1.jpg",
     "static/media/wired-logo.svg": "/bit-by-bit-hackathon-2019/static/media/wired-logo.c0e56896.svg"
