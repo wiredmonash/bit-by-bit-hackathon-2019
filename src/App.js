@@ -6,6 +6,7 @@ import Schedule from './components/Schedule/Schedule';
 
 import Pitches from './img/pitches-min.jpg';
 import Button from './components/Hero/Button';
+import JudgesSection from './sections/Judges';
 
 class App extends React.Component {
 	constructor() {
@@ -207,8 +208,7 @@ class App extends React.Component {
 						id="judges"
 					>
 						<div style={{ width: '80%', padding: 10 }}>
-							<h1>Judges</h1>
-							<em>Judges To be Announced</em>
+							<JudgesSection />
 							<hr />
 							<h1>Judging Criteria</h1>
 							<em>Judging Criteria To be Announced</em>

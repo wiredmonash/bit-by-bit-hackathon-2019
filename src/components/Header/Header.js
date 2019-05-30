@@ -22,7 +22,6 @@ class Header extends React.Component {
 					backgroundColor: 'var(--secondary-color)',
 					color: 'var(--primary-color)',
 					padding: 20,
-					position: '-webkit-sticky' /* Safari */,
 					position: 'sticky',
 					top: 0,
 					borderBottom: 'solid 0.2px var(--primary-color)'
