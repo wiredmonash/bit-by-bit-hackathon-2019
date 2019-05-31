@@ -132,7 +132,67 @@ class App extends React.Component {
 					>
 						<div style={{ width: '80%', padding: 10 }}>
 							<h1 style={{ color: 'var(--primary-color)' }}>Prizes</h1>
-							<em>Prizes To be Announced</em>
+							<div style={{ display: 'flex', flexWrap: 'wrap' }}>
+								<div style={{ flex: 1, minWidth: 300, wordWrap: 'wrap' }}>
+									<h2>First-Timer Division</h2>
+									<ol>
+										<li>First Prize</li>
+										<li>Second Prize</li>
+										<li>Third Prize</li>
+									</ol>
+									<p>
+										To qualify for this division, a team:
+										<ul>
+											<li>
+												half of the team members must not have previous
+												experience at a hackathon
+											</li>
+											<li>
+												and more than two team members must not have won a hack
+												within the past year
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div
+									style={{
+										borderLeft: 'solid 1px var(--primary-color)',
+										marginLeft: 5,
+										marginRight: 5
+									}}
+								/>
+								<div
+									style={{
+										flex: 1,
+										minWidth: 300
+									}}
+								>
+									<h2>General Division</h2>
+									<ol>
+										<li>First Prize</li>
+										<li>Second Prize</li>
+										<li>Third Prize</li>
+									</ol>
+								</div>
+								<div
+									style={{
+										borderLeft: 'solid 1px var(--primary-color)',
+										marginLeft: 5,
+										marginRight: 5
+									}}
+								/>
+								<div
+									style={{
+										flex: 1,
+										minWidth: 300
+									}}
+								>
+									<h2>Other Division</h2>
+									<ol>
+										<li>Participants Choice</li>
+									</ol>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div

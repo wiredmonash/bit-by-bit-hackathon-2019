@@ -13,7 +13,9 @@ function JudgesSection() {
 						marginBottom: 10,
 						border: 'solid 0.2px var(--secondary-color)',
 						maxWidth: '30%',
-						padding: 10
+						padding: 10,
+						minWidth: 300,
+						wordWrap: 'break-word'
 					}}
 				>
 					<div style={{ display: 'flex' }}>

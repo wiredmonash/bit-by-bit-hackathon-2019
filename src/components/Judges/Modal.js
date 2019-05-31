@@ -11,17 +11,26 @@ export default function JudgesModal({
 	return (
 		<>
 			<>{trigger}</>
-			<Modal visible={visible} effect="fadeInUp" onClickAway={handleModalClose}>
+			<Modal
+				visible={visible}
+				effect="fadeInUp"
+				onClickAway={handleModalClose}
+				style={{
+					overflow: 'scroll'
+				}}
+			>
 				<div
 					style={{
 						height: '100%',
 						width: '100%',
 						display: 'flex',
+						flexWrap: 'wrap',
 						flexDirection: 'column',
 						padding: 20,
 						minWidth: 280,
 						minHeight: 300,
-						maxWidth: '80vw'
+						maxWidth: '80vw',
+						overflow: 'scroll'
 					}}
 				>
 					<div
