@@ -3,7 +3,7 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 
-import Logo from '../../img/bbb-single-reverse.svg';
+import Logo from '../../img/bbb-single.svg';
 import { withStyles } from '@material-ui/core';
 
 const styles = {
@@ -18,7 +18,7 @@ class HeaderBar extends React.Component {
 		const { classes } = this.props;
 		return (
 			<div className={classes.root}>
-				<AppBar>
+				<AppBar color="secondary">
 					<Toolbar className={classes.toolbar}>
 						<div
 							style={{

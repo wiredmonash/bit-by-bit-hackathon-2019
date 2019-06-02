@@ -147,7 +147,7 @@ class App extends React.Component {
 											<li>Second Prize</li>
 											<li>Third Prize</li>
 										</ol>
-										<p>
+										<div>
 											To qualify for this division, a team:
 											<ul>
 												<li>
@@ -159,7 +159,7 @@ class App extends React.Component {
 													hack within the past year
 												</li>
 											</ul>
-										</p>
+										</div>
 									</div>
 									<div
 										style={{
@@ -338,7 +338,7 @@ class App extends React.Component {
 						onClick={() => this.scroll(this.top)}
 					>
 						<i
-							class="fas fa-chevron-up"
+							className="fas fa-chevron-up"
 							style={{ fontSize: 30, color: 'white' }}
 						/>
 					</Button>
