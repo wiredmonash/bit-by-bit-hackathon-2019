@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63486dc64200c52c4f5776ef6d609aec",
+    "revision": "57fb6dba842a9a20dd8f0504c7b74d65",
     "url": "/bit-by-bit-hackathon-2019/index.html"
   },
   {
-    "revision": "7897440302b0e6c8312c",
+    "revision": "623caba37958d1c200e3",
     "url": "/bit-by-bit-hackathon-2019/static/css/main.e5861628.chunk.css"
   },
   {
-    "revision": "82dc84bc07fbf62db84f",
-    "url": "/bit-by-bit-hackathon-2019/static/js/2.6a17f2d5.chunk.js"
+    "revision": "9813bb89d026f9a691f9",
+    "url": "/bit-by-bit-hackathon-2019/static/js/2.5865a8ae.chunk.js"
   },
   {
-    "revision": "7897440302b0e6c8312c",
-    "url": "/bit-by-bit-hackathon-2019/static/js/main.c29b75ae.chunk.js"
+    "revision": "623caba37958d1c200e3",
+    "url": "/bit-by-bit-hackathon-2019/static/js/main.85256b01.chunk.js"
   },
   {
     "revision": "22f5979333d86f5d5fcb",
     "url": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js"
   },
   {
-    "revision": "b02bc91990c229c26694be1e8afaba53",
-    "url": "/bit-by-bit-hackathon-2019/static/media/bbb-single-reverse.b02bc919.svg"
+    "revision": "83d7989ee59be44fa1e8d05b7b8e7e16",
+    "url": "/bit-by-bit-hackathon-2019/static/media/bbb-single.83d7989e.svg"
+  },
+  {
+    "revision": "76e0e1385bbbc8d6d3ac2dc9c3a68a7f",
+    "url": "/bit-by-bit-hackathon-2019/static/media/monashlogo.76e0e138.png"
   },
   {
     "revision": "f2cb27d13cc12c37d8bbe6fa70358470",
     "url": "/bit-by-bit-hackathon-2019/static/media/pitches-min.f2cb27d1.jpg"
+  },
+  {
+    "revision": "b43ef378c219e13e95957cf48f261820",
+    "url": "/bit-by-bit-hackathon-2019/static/media/reecetech.b43ef378.svg"
   },
   {
     "revision": "37d453723f7ce6e14f1ece4508b3f470",
