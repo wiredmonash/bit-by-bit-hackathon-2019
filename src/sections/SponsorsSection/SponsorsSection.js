@@ -25,7 +25,7 @@ function SponsorsSection({ classes }) {
 							}}
 						>
 							<div className={classes.sponsorContainer}>
-								<h2>Primary Club Sponsor</h2>
+								<h2>Platinum Club Sponsor</h2>
 								<div style={{ flex: 1, display: 'flex', alignItems: 'center' }}>
 									<img src={ReeceTechLogo} style={{ width: 300 }} />
 								</div>
