@@ -14,20 +14,18 @@ class TeresaF extends React.Component {
 	render() {
 		return (
 			<>
+				<Button onClick={() => this.setState({ visible: true })}>
+					Read more about Teresa...
+				</Button>
 				<Modal
-					trigger={
-						<Button onClick={() => this.setState({ visible: true })}>
-							Read more about Teresa...
-						</Button>
-					}
 					handleModalClose={() => this.setState({ visible: false })}
 					visible={this.state.visible}
 				>
-					<div style={{ display: 'flex' }}>
+					<div style={{ display: 'flex', flexWrap: 'wrap' }}>
 						<div style={{ flex: 1 }}>
 							<img
 								src={ProfilePhoto}
-								style={{ width: '100%', borderRadius: '100%' }}
+								style={{ width: '100%', borderRadius: '100%', minWidth: 200 }}
 								alt="Teresa Finlayson"
 							/>
 						</div>
