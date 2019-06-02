@@ -14,7 +14,6 @@ const styles = {
 function Event({ event, key }) {
 	const now = moment();
 	const isNewer = moment(event.endTime).isBefore(now);
-	console.log(isNewer);
 	let eventStyle;
 
 	if (isNewer) {

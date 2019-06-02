@@ -1,6 +1,7 @@
 import React from 'react';
-import Modal from 'react-awesome-modal';
+import Dialog from '@material-ui/core/Dialog';
 import Button from '../Hero/Button';
+import { DialogContent, DialogActions } from '@material-ui/core';
 
 export default function JudgesModal({
 	trigger,
@@ -11,38 +12,27 @@ export default function JudgesModal({
 	return (
 		<>
 			<>{trigger}</>
-			<Modal
-				visible={visible}
+			<Dialog
+				open={visible}
 				effect="fadeInUp"
 				onClickAway={handleModalClose}
 				style={{
 					overflow: 'scroll'
 				}}
 			>
-				<div
-					style={{
-						height: '100%',
-						width: '100%',
-						display: 'flex',
-						flexWrap: 'wrap',
-						flexDirection: 'column',
-						padding: 20,
-						minWidth: 280,
-						minHeight: 300,
-						maxWidth: '80vw',
-						overflow: 'scroll'
-					}}
-				>
+				<DialogContent>
 					<div
 						style={{ flex: 1, marginBottom: 10, color: 'var(--primary-color)' }}
 					>
 						{children}
 					</div>
+				</DialogContent>
+				<DialogActions>
 					<div style={{ display: 'flex', flexDirection: 'row-reverse' }}>
 						<Button onClick={handleModalClose}>Close</Button>
 					</div>
-				</div>
-			</Modal>
+				</DialogActions>
+			</Dialog>
 		</>
 	);
 }

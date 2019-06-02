@@ -4,11 +4,14 @@
   "private": true,
   "homepage": "https://lorderikir.github.io/bit-by-bit-hackathon-2019",
   "dependencies": {
+    "@material-ui/core": "^4.0.1",
+    "@material-ui/icons": "^4.0.1",
     "gh-pages": "^2.0.1",
     "moment-timezone": "^0.5.25",
     "react": "^16.8.6",
     "react-awesome-modal": "^2.0.5",
     "react-dom": "^16.8.6",
+    "react-responsive": "^6.1.2",
     "react-scripts": "3.0.1",
     "react-social-icons": "^4.1.0"
   },
