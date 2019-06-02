@@ -62,7 +62,9 @@ function PrizesSection({ classes }) {
 							<li>Third Prize</li>
 						</ol>
 					</div>
-					<VerticalBorder />
+					<MediaQuery query="(min-device-width: 1224px)">
+						<VerticalBorder />
+					</MediaQuery>
 					<div className={classes.division}>
 						<h2>Other Division</h2>
 						<ol>
