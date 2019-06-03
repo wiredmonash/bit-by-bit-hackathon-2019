@@ -4,18 +4,32 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 
 import Logo from '../../img/bbb-single.svg';
-import { withStyles } from '@material-ui/core';
+import { withStyles, Button } from '@material-ui/core';
+
+import MediaQuery from 'react-responsive';
+
+import ScheduleIcon from '@material-ui/icons/Schedule';
+import StarIcon from '@material-ui/icons/Star';
+import PeopleIcon from '@material-ui/icons/People';
 
 const styles = {
 	root: { marginBottom: 100 },
 	toolbar: {
-		padding: 5
+		padding: 10
+	},
+	buttonIcon: {
+		marginRight: 5
 	}
 };
 
 class HeaderBar extends React.Component {
 	render() {
-		const { classes } = this.props;
+		const {
+			classes,
+			handleScheduleClick,
+			handlePrizes,
+			handleJudges
+		} = this.props;
 		return (
 			<div className={classes.root}>
 				<AppBar color="secondary">
@@ -29,12 +43,44 @@ class HeaderBar extends React.Component {
 							}}
 						>
 							<img src={Logo} alt="logo" style={{ height: 50 }} />
-							<span
-								style={{ fontFamily: 'Courier', fontSize: 24, marginLeft: 10 }}
-								className="text-select-none"
-							>
-								Bit-by-Bit 2019
-							</span>
+							<MediaQuery query="(min-device-width: 1224px)">
+								<span
+									style={{
+										fontFamily: 'Courier',
+										fontSize: 24,
+										marginLeft: 10
+									}}
+									className="text-select-none"
+								>
+									Bit-by-Bit 2019
+								</span>
+							</MediaQuery>
+						</div>
+						<div>
+							<MediaQuery minDeviceWidth={1224}>
+								{matches => {
+									return (
+										<>
+											<Button onClick={handleScheduleClick}>
+												{matches && (
+													<ScheduleIcon className={classes.buttonIcon} />
+												)}
+												Schedule
+											</Button>
+											<Button onClick={handlePrizes}>
+												{matches && <StarIcon className={classes.buttonIcon} />}
+												Prizes
+											</Button>
+											<Button onClick={handleJudges}>
+												{matches && (
+													<PeopleIcon className={classes.buttonIcon} />
+												)}
+												Judges
+											</Button>
+										</>
+									);
+								}}
+							</MediaQuery>
 						</div>
 					</Toolbar>
 				</AppBar>

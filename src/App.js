@@ -27,18 +27,18 @@ class App extends React.Component {
 	render() {
 		return (
 			<>
-				<HeaderBar />
+				<HeaderBar
+					schedule={this.schedule}
+					handleTop={() => this.scroll(this.top)}
+					handleScheduleClick={() => this.scroll(this.schedule)}
+					handlePrizes={() => this.scroll(this.prizes)}
+					handleJudges={() => this.scroll(this.judges)}
+					handleTeam={() => this.scroll(this.team)}
+				/>
 				<div
 					style={{ display: 'flex', flexDirection: 'column' }}
 					ref={this.top}
 				>
-					{/* <Header
-					handleTop={() => this.scroll(this.top)}
-					handleScheduleClick={() => txhis.scroll(this.schedule)}
-					zwandlePrizes={() => this.scroll(this.prizes)}
-					handleJudges={() => this.scroll(this.judges)}
-					handleTeam={() => this.scroll(this.team)}
-				/> */}
 					<div
 						style={{
 							minHeight: '100vh',

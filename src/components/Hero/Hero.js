@@ -74,7 +74,6 @@ function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
 					<Button onClick={handleScheduleClick}>View Schedule</Button>
 					<Button onClick={handlePrizes}>View Prizes</Button>
 					<Button onClick={handleJudges}>View Judges</Button>
-					<Button onClick={handleTeam}>View Team</Button>
 				</div>
 			</div>
 		</div>
