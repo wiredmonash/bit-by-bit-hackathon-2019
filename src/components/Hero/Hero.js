@@ -46,6 +46,8 @@ function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
 						fontWeight: 700
 					}}
 				>
+					Learning and Teaching Building, <br />
+					19 Ancora Imparo Way, <br />
 					Monash University Clayton Campus, <br />
 					23rd August 2019 - 25th August 2019
 				</div>
