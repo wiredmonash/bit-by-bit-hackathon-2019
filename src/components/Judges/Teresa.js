@@ -1,23 +1,28 @@
 import React from 'react';
 
 import Modal from './Modal';
-import Button from '../Hero/Button';
 
 import ProfilePhoto from './img/teresa.png';
 
 import { SocialIcon } from 'react-social-icons';
+import { Button, withMobileDialog } from '@material-ui/core';
 
 class TeresaF extends React.Component {
 	state = {
 		visible: false
 	};
 	render() {
+		const { fullScreen } = this.props;
 		return (
 			<>
-				<Button onClick={() => this.setState({ visible: true })}>
+				<Button
+					onClick={() => this.setState({ visible: true })}
+					color="primary"
+				>
 					Read more about Teresa...
 				</Button>
 				<Modal
+					fullScreen={fullScreen}
 					handleModalClose={() => this.setState({ visible: false })}
 					visible={this.state.visible}
 				>
@@ -25,7 +30,12 @@ class TeresaF extends React.Component {
 						<div style={{ flex: 1 }}>
 							<img
 								src={ProfilePhoto}
-								style={{ width: '100%', borderRadius: '100%', minWidth: 200 }}
+								style={{
+									width: '30%',
+									borderRadius: '100%',
+									minWidth: 200,
+									maxWidth: 300
+								}}
 								alt="Teresa Finlayson"
 							/>
 						</div>
@@ -37,7 +47,8 @@ class TeresaF extends React.Component {
 								flexWrap: 'wrap',
 								textOverflow: 'wrap',
 								marginLeft: 20,
-								maxWidth: '80%'
+								maxWidth: 300,
+								width: 100
 							}}
 						>
 							<h1 style={{ color: 'var(--primary-color)' }}>
@@ -90,4 +101,4 @@ class TeresaF extends React.Component {
 	}
 }
 
-export default TeresaF;
+export default withMobileDialog()(TeresaF);
