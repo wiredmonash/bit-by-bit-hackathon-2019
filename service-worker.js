@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bit-by-bit-hackathon-2019/precache-manifest.2a3d83157bbfdebd9675d1058fe1d923.js"
+  "/bit-by-bit-hackathon-2019/precache-manifest.913d08a10835f5cc1e940176c5eafa4c.js"
 );
 
 self.addEventListener('message', (event) => {
