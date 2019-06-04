@@ -7,27 +7,41 @@ const useStyles = makeStyles({
 	card: {
 		maxWidth: 300
 	},
+	content: { display: 'flex', flexDirection: 'column', alignItems: 'center' },
 	avatar: {
 		height: 100,
 		width: 100
 	}
 });
 
-function JudgesSection() {
+function JudgesCard({ name, image, title, company }) {
 	const classes = useStyles();
+	return (
+		<Card className={classes.card}>
+			<CardContent className={classes.content}>
+				<Avatar src={image} className={classes.avatar} />
+				<h2 style={{ marginBottom: 0 }}>{name}</h2>
+				<em>
+					{title}, {company}
+				</em>
+			</CardContent>
+			<CardActions>
+				<TeresaF />
+			</CardActions>
+		</Card>
+	);
+}
+
+function JudgesSection() {
 	return (
 		<>
 			<h1>Judges</h1>
-			<Card className={classes.card}>
-				<CardContent>
-					<Avatar src="./images/judges/teresa.png" className={classes.avatar} />
-					<h2 style={{ marginBottom: 0 }}>Teresa Finlayson</h2>
-					<em>Deputy CIO, Monash University</em>
-				</CardContent>
-				<CardActions>
-					<TeresaF />
-				</CardActions>
-			</Card>
+			<JudgesCard
+				name="Teresa Finlayson"
+				image="./images/judges/teresa.png"
+				title="Deputy CIO"
+				company="Monash University"
+			/>
 			<em>More judges to be announced soon...</em>
 		</>
 	);
