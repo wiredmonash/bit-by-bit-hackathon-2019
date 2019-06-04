@@ -1,6 +1,7 @@
 import React from 'react';
 import WiredLogo from '../../img/wired-logo.svg';
 import Button from './Button';
+import links from '../../constants/links';
 
 function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
 	return (
@@ -59,7 +60,7 @@ function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
 					}}
 				>
 					<a
-						href="https://www.eventbrite.com.au/e/bit-by-bit-hackathon-2019-tickets-62415133344"
+						href={links.EVENTBRITE_LINK}
 						target="_blank"
 						rel="noopener noreferrer"
 						style={{
