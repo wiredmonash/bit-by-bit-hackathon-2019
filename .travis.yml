@@ -7,5 +7,7 @@ cache:
   - node_modules
 
 script:
-  - npm test
-  - npm run build
+  - yarn test
+
+deploy:
+  - yarn deploy
