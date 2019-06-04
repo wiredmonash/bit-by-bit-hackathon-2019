@@ -1,14 +1,6 @@
 import React from 'react';
-import TeresaPhoto from '../../components/Judges/img/teresa.png';
 import TeresaF from '../../components/Judges/Teresa';
-import {
-	Card,
-	CardMedia,
-	CardActionArea,
-	CardContent,
-	CardActions,
-	Avatar
-} from '@material-ui/core';
+import { Card, CardContent, CardActions, Avatar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles({

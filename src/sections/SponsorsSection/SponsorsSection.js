@@ -27,12 +27,20 @@ function SponsorsSection({ classes }) {
 							<div className={classes.sponsorContainer}>
 								<h2>Platinum Club Sponsor</h2>
 								<div style={{ flex: 1, display: 'flex', alignItems: 'center' }}>
-									<img src={ReeceTechLogo} style={{ width: 300 }} />
+									<img
+										src={ReeceTechLogo}
+										style={{ width: 300 }}
+										alt="ReeceTech"
+									/>
 								</div>
 							</div>
 							<div className={classes.sponsorContainer}>
 								<h2>Venues & Logistics Sponsor</h2>
-								<img src={MonashUniLogo} style={{ width: 300 }} />
+								<img
+									src={MonashUniLogo}
+									style={{ width: 300 }}
+									alt="Monash University"
+								/>
 							</div>
 						</div>
 					</div>
