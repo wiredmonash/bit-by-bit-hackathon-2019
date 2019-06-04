@@ -42,7 +42,8 @@ class HeaderBar extends React.Component {
 								display: 'flex',
 								flexDirection: 'row',
 								alignItems: 'center',
-								flex: 1
+								flex: 1,
+								marginRight: 10
 							}}
 						>
 							<img src={Logo} alt="logo" style={{ height: 50 }} />
