@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/bit-by-bit-hackathon-2019/static/css/main.e5861628.chunk.css",
-    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.38b74b60.chunk.js",
-    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.38b74b60.chunk.js.map",
+    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.115e6960.chunk.js",
+    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.115e6960.chunk.js.map",
     "runtime~main.js": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js",
     "runtime~main.js.map": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js.map",
-    "static/js/2.bc1e3177.chunk.js": "/bit-by-bit-hackathon-2019/static/js/2.bc1e3177.chunk.js",
-    "static/js/2.bc1e3177.chunk.js.map": "/bit-by-bit-hackathon-2019/static/js/2.bc1e3177.chunk.js.map",
+    "static/js/2.09686ba3.chunk.js": "/bit-by-bit-hackathon-2019/static/js/2.09686ba3.chunk.js",
+    "static/js/2.09686ba3.chunk.js.map": "/bit-by-bit-hackathon-2019/static/js/2.09686ba3.chunk.js.map",
     "index.html": "/bit-by-bit-hackathon-2019/index.html",
-    "precache-manifest.8736c4c26a64194bda5bfcc189b2f441.js": "/bit-by-bit-hackathon-2019/precache-manifest.8736c4c26a64194bda5bfcc189b2f441.js",
+    "precache-manifest.49a6b1b657a49fed0496bbb3aa390436.js": "/bit-by-bit-hackathon-2019/precache-manifest.49a6b1b657a49fed0496bbb3aa390436.js",
     "service-worker.js": "/bit-by-bit-hackathon-2019/service-worker.js",
     "static/css/main.e5861628.chunk.css.map": "/bit-by-bit-hackathon-2019/static/css/main.e5861628.chunk.css.map",
     "static/media/bbb-single.svg": "/bit-by-bit-hackathon-2019/static/media/bbb-single.83d7989e.svg",
     "static/media/monashlogo.png": "/bit-by-bit-hackathon-2019/static/media/monashlogo.76e0e138.png",
     "static/media/pitches-min.jpg": "/bit-by-bit-hackathon-2019/static/media/pitches-min.f2cb27d1.jpg",
     "static/media/reecetech.svg": "/bit-by-bit-hackathon-2019/static/media/reecetech.b43ef378.svg",
-    "static/media/teresa.png": "/bit-by-bit-hackathon-2019/static/media/teresa.37d45372.png",
     "static/media/wired-logo.svg": "/bit-by-bit-hackathon-2019/static/media/wired-logo.c0e56896.svg"
   }
 }
