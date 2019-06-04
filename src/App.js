@@ -8,6 +8,41 @@ import JudgesSection from './sections/Judges';
 import HeaderBar from './components/HeaderBar';
 import PrizesSection from './sections/PrizesSection';
 import SponsorsSection from './sections/SponsorsSection/SponsorsSection';
+import {
+	Table,
+	TableHead,
+	TableCell,
+	TableRow,
+	TableBody,
+	Paper,
+	withStyles,
+	Divider
+} from '@material-ui/core';
+
+const StyledTableCell = withStyles(theme => ({
+	head: {
+		backgroundColor: theme.palette.secondary.main,
+		color: theme.palette.primary.main
+	},
+	body: {
+		fontSize: 14
+	}
+}))(TableCell);
+
+const StyledTableRow = withStyles(theme => ({
+	root: {
+		'&:nth-of-type(odd)': {
+			backgroundColor: theme.palette.background.default
+		}
+	}
+}))(TableRow);
+
+const styles = {
+	divider: {
+		marginTop: 10,
+		backgroundColor: 'var(--secondary-color)'
+	}
+};
 
 class App extends React.Component {
 	constructor() {
@@ -25,6 +60,7 @@ class App extends React.Component {
 	}
 
 	render() {
+		const { classes } = this.props;
 		return (
 			<>
 				<HeaderBar
@@ -216,8 +252,46 @@ class App extends React.Component {
 							<div style={{ width: '80%', padding: 10 }}>
 								<JudgesSection />
 								<hr />
-								<h1>Judging Criteria</h1>
-								<em>Judging Criteria To be Announced</em>
+								<h1>Judging</h1>
+								<div>
+									<p>
+										This year, we've changed how our judging works. Judging for
+										ideas will be broken into two parts:{' '}
+										<strong>Technical</strong> and <strong>Pitches</strong>.{' '}
+									</p>
+									<p>
+										Participants will firstly pitch/demonstrate their end
+										product to our Technical Judges (with a time limit) and then
+										do a final pitch to our pitching judges. This is so that
+										both the technical and pitching the idea both weighted to
+										give a final deliberation.
+									</p>
+									<Paper>
+										<Table>
+											<TableHead>
+												<TableRow>
+													<StyledTableCell>Section</StyledTableCell>
+													<StyledTableCell>Time</StyledTableCell>
+												</TableRow>
+											</TableHead>
+											<TableBody>
+												<StyledTableRow>
+													<StyledTableCell>Technical Judging</StyledTableCell>
+													<StyledTableCell>TBA</StyledTableCell>
+												</StyledTableRow>
+												<StyledTableRow>
+													<StyledTableCell>Pitches Judging</StyledTableCell>
+													<StyledTableCell>TBA</StyledTableCell>
+												</StyledTableRow>
+											</TableBody>
+										</Table>
+									</Paper>
+								</div>
+								<Divider variant="middle" className={classes.divider} />
+								<div>
+									<h2>Judging Criteria</h2>
+									<em>To be announced</em>
+								</div>
 							</div>
 						</div>
 
@@ -284,4 +358,4 @@ class App extends React.Component {
 	}
 }
 
-export default App;
+export default withStyles(styles)(App);
