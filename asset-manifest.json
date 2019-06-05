@@ -1,20 +1,17 @@
 {
   "files": {
     "main.css": "/bit-by-bit-hackathon-2019/static/css/main.e5861628.chunk.css",
-    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.533b3329.chunk.js",
-    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.533b3329.chunk.js.map",
+    "main.js": "/bit-by-bit-hackathon-2019/static/js/main.74dfb8f2.chunk.js",
+    "main.js.map": "/bit-by-bit-hackathon-2019/static/js/main.74dfb8f2.chunk.js.map",
     "runtime~main.js": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js",
     "runtime~main.js.map": "/bit-by-bit-hackathon-2019/static/js/runtime~main.92d00c57.js.map",
-    "static/js/2.5c04f007.chunk.js": "/bit-by-bit-hackathon-2019/static/js/2.5c04f007.chunk.js",
-    "static/js/2.5c04f007.chunk.js.map": "/bit-by-bit-hackathon-2019/static/js/2.5c04f007.chunk.js.map",
+    "static/js/2.895a009a.chunk.js": "/bit-by-bit-hackathon-2019/static/js/2.895a009a.chunk.js",
+    "static/js/2.895a009a.chunk.js.map": "/bit-by-bit-hackathon-2019/static/js/2.895a009a.chunk.js.map",
     "index.html": "/bit-by-bit-hackathon-2019/index.html",
-    "precache-manifest.46a18f9ef4a7786f57cd4a6c7ec377bf.js": "/bit-by-bit-hackathon-2019/precache-manifest.46a18f9ef4a7786f57cd4a6c7ec377bf.js",
+    "precache-manifest.c938f17743aad5f16919b4dec910449c.js": "/bit-by-bit-hackathon-2019/precache-manifest.c938f17743aad5f16919b4dec910449c.js",
     "service-worker.js": "/bit-by-bit-hackathon-2019/service-worker.js",
     "static/css/main.e5861628.chunk.css.map": "/bit-by-bit-hackathon-2019/static/css/main.e5861628.chunk.css.map",
     "static/media/bbb-single.svg": "/bit-by-bit-hackathon-2019/static/media/bbb-single.83d7989e.svg",
-    "static/media/monashlogo.png": "/bit-by-bit-hackathon-2019/static/media/monashlogo.76e0e138.png",
-    "static/media/pitches-min.jpg": "/bit-by-bit-hackathon-2019/static/media/pitches-min.f2cb27d1.jpg",
-    "static/media/reecetech.svg": "/bit-by-bit-hackathon-2019/static/media/reecetech.b43ef378.svg",
     "static/media/wired-logo.svg": "/bit-by-bit-hackathon-2019/static/media/wired-logo.c0e56896.svg"
   }
 }
