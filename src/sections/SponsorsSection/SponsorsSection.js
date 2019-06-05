@@ -1,8 +1,5 @@
 import React from 'react';
 import { Divider } from '@material-ui/core';
-
-import ReeceTechLogo from '../../img/sponsors/reecetech.svg';
-import MonashUniLogo from '../../img/sponsors/monashlogo.png';
 import { withStyles } from '@material-ui/styles';
 
 const style = {
@@ -27,20 +24,32 @@ function SponsorsSection({ classes }) {
 							<div className={classes.sponsorContainer}>
 								<h2>Platinum Club Sponsor</h2>
 								<div style={{ flex: 1, display: 'flex', alignItems: 'center' }}>
-									<img
-										src={ReeceTechLogo}
-										style={{ width: 300 }}
-										alt="ReeceTech"
-									/>
+									<a
+										href="https://www.reecetech.com.au"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											src="./images/sponsors/reecetech.svg"
+											style={{ width: 300 }}
+											alt="ReeceTech"
+										/>
+									</a>
 								</div>
 							</div>
 							<div className={classes.sponsorContainer}>
 								<h2>Venues & Logistics Sponsor</h2>
-								<img
-									src={MonashUniLogo}
-									style={{ width: 300 }}
-									alt="Monash University"
-								/>
+								<a
+									href="https://monash.edu"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="./images/sponsors/monashlogo.png"
+										style={{ width: 300 }}
+										alt="Monash University"
+									/>
+								</a>
 							</div>
 						</div>
 					</div>

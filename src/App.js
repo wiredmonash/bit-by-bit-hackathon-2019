@@ -2,7 +2,6 @@ import React from 'react';
 import Hero from './components/Hero/Hero';
 import Schedule from './components/Schedule/Schedule';
 
-import Pitches from './img/pitches-min.jpg';
 import Button from './components/Hero/Button';
 import JudgesSection from './sections/Judges';
 import HeaderBar from './components/HeaderBar';
@@ -142,7 +141,7 @@ class App extends React.Component {
 									</div>
 									<div style={{ marginLeft: 10 }}>
 										<img
-											src={Pitches}
+											src="./images/pitches.jpg"
 											style={{ width: 400, maxWidth: '80vw' }}
 											alt="Unihack mini 2017"
 										/>
