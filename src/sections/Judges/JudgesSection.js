@@ -11,13 +11,36 @@ const useStyles = makeStyles({
 	avatar: {
 		height: 100,
 		width: 100
+	},
+	pitchJudge: {
+		padding: 5,
+		fontSize: 12,
+		backgroundColor: '#CF96F8'
+	},
+	techJudge: {
+		padding: 5,
+		fontSize: 12,
+		backgroundColor: '#96BCF8'
 	}
 });
 
-function JudgesCard({ name, image, title, company }) {
+const JudgeTypes = {
+	TECH: 'Technical Judge',
+	PITCH: 'Pitches/Ideation Judge'
+};
+
+function JudgesCard({ name, image, title, company, type }) {
 	const classes = useStyles();
 	return (
 		<Card className={classes.card}>
+			<div
+				className={
+					type === JudgeTypes.PITCH ? classes.pitchJudge : classes.techJudge
+				}
+			>
+				{type}
+			</div>
+
 			<CardContent className={classes.content}>
 				<Avatar src={image} className={classes.avatar} />
 				<h2 style={{ marginBottom: 0 }}>{name}</h2>
@@ -37,6 +60,7 @@ function JudgesSection() {
 		<>
 			<h1>Judges</h1>
 			<JudgesCard
+				type={JudgeTypes.PITCH}
 				name="Teresa Finlayson"
 				image="./images/judges/teresa.png"
 				title="Deputy CIO"
