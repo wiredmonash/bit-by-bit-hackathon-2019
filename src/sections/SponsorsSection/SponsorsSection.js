@@ -52,6 +52,63 @@ function SponsorsSection({ classes }) {
 								</a>
 							</div>
 						</div>
+						<Divider style={{ marginBottom: 5 }} />
+						<div>
+							<h2>Gold Club Sponsors</h2>
+							<div
+								style={{
+									display: 'flex',
+									flexDirection: 'row',
+									flexWrap: 'wrap',
+									justifyContent: 'space-evenly'
+								}}
+							>
+								<a
+									href="https://www.rea-group.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="./images/sponsors/rea.svg"
+										style={{ height: 50 }}
+										alt="REA Group"
+									/>
+								</a>
+								<a
+									href="https://www.imc.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="https://www.imc.com/images/logo.png"
+										style={{ height: 50 }}
+										alt="IMC"
+									/>
+								</a>
+								<a
+									href="https://www.carsales.com.au/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="https://resource.csnstatic.com/retail/globals/logo/v2/carsales.svg"
+										style={{ height: 50 }}
+										alt="Carsales"
+									/>
+								</a>
+								<a
+									href="https://www.colesgroup.com.au/home/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="https://www.coles.com.au/~/media/images/colesa/mega-nav/logo-coles.png"
+										style={{ height: 50 }}
+										alt="Coles"
+									/>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<Divider style={{ marginBottom: 5 }} />
