@@ -1,11 +1,28 @@
 import React from 'react';
 import { Divider } from '@material-ui/core';
-import { withStyles } from '@material-ui/styles';
+import { makeStyles } from '@material-ui/styles';
 
-const style = {
-	sponsorContainer: { flex: 1, display: 'flex', flexDirection: 'column' }
-};
-function SponsorsSection({ classes }) {
+const useStyles = makeStyles({
+	sponsorContainer: {
+		flex: 1,
+		display: 'flex',
+		flexDirection: 'column'
+	},
+	sponsorRow: {
+		flex: 1,
+		display: 'flex',
+		flexDirection: 'row',
+		justifyContent: 'space-evenly',
+		alignItems: 'center',
+		flexWrap: 'wrap'
+	},
+	divider: {
+		marginTop: 5,
+		marginBottom: 5
+	}
+});
+function SponsorsSection() {
+	const classes = useStyles();
 	return (
 		<>
 			<div style={{ width: '80%', padding: 10 }}>
@@ -52,17 +69,10 @@ function SponsorsSection({ classes }) {
 								</a>
 							</div>
 						</div>
-						<Divider style={{ marginBottom: 5 }} />
+						<Divider className={classes.divider} />
 						<div>
 							<h2>Gold Club Sponsors</h2>
-							<div
-								style={{
-									display: 'flex',
-									flexDirection: 'row',
-									flexWrap: 'wrap',
-									justifyContent: 'space-evenly'
-								}}
-							>
+							<div className={classes.sponsorRow}>
 								<a
 									href="https://www.rea-group.com/"
 									target="_blank"
@@ -102,7 +112,7 @@ function SponsorsSection({ classes }) {
 									rel="noopener noreferrer"
 								>
 									<img
-										src="https://www.coles.com.au/~/media/images/colesa/mega-nav/logo-coles.png"
+										src="./images/sponsors/coles.png"
 										style={{ height: 50 }}
 										alt="Coles"
 									/>
@@ -110,12 +120,104 @@ function SponsorsSection({ classes }) {
 							</div>
 						</div>
 					</div>
+					<Divider className={classes.divider} />
+					<div>
+						<h2>Event Sponsors</h2>
+						<em>More event sponsors to be announced</em>
+					</div>
+					<Divider className={classes.divider} />
+					<div>
+						<h2>Silver Club Sponsors</h2>
+						<div className={classes.sponsorRow}>
+							<a
+								href="https://www.readygrad.com.au/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									src="./images/sponsors/readygrad.svg"
+									style={{ height: 30 }}
+									alt="ReadyGrad"
+								/>
+							</a>
+							<a
+								href="https://www.janestreet.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									src="./images/sponsors/janestreet.png"
+									style={{ height: 30 }}
+									alt="Jane Street"
+								/>
+							</a>
+							<a
+								href="https://www.atlassian.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									src="./images/sponsors/atlassian.svg"
+									style={{ height: 30 }}
+									alt="Atlassian"
+								/>
+							</a>
+							<a
+								href="https://www.accenture.com/au-en"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									src="./images/sponsors/accenture.png"
+									style={{ height: 30 }}
+									alt="Accenture"
+								/>
+							</a>
+						</div>
+					</div>
+					<Divider className={classes.divider} />
+					<div>
+						<h2>Bronze Club Sponsors</h2>
+						<div className={classes.sponsorRow}>
+							<a
+								href="https://www.facebook.com/pg/facebook/about/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									src="http://wired.org.au/assets/img/sponsor/facebook-logo.png"
+									style={{ height: 30 }}
+									alt="Facebook"
+								/>
+							</a>
+							<a
+								href="https://www.bosch.com.au/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									src="./images/sponsors/bosch.png"
+									style={{ height: 30 }}
+									alt="Bosch"
+								/>
+							</a>
+							<a
+								href="https://www.bcg.com/en-au/default.aspx"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									src="./images/sponsors/bcg.png"
+									style={{ height: 30 }}
+									alt="Boston Consulting Group"
+								/>
+							</a>
+						</div>
+					</div>
 				</div>
-				<Divider style={{ marginBottom: 5 }} />
-				<em>Other sponsors To be Announced</em>
 			</div>
 		</>
 	);
 }
 
-export default withStyles(style)(SponsorsSection);
+export default SponsorsSection;
