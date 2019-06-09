@@ -26,7 +26,9 @@ function SponsorsSection() {
 	return (
 		<>
 			<div style={{ width: '80%', padding: 10 }}>
-				<h1 style={{ color: 'var(--primary-color)' }}>Sponsors</h1>
+				<h1 style={{ color: 'var(--primary-color)' }}>
+					Special thanks to our Sponsors
+				</h1>
 				<div
 					style={{ display: 'flex', flexDirection: 'column', flexWrap: 'wrap' }}
 				>
@@ -55,7 +57,7 @@ function SponsorsSection() {
 								</div>
 							</div>
 							<div className={classes.sponsorContainer}>
-								<h2>Venues & Logistics Sponsor</h2>
+								<h2>Bit by Bit Venues & Logistics Sponsor</h2>
 								<a
 									href="https://monash.edu"
 									target="_blank"

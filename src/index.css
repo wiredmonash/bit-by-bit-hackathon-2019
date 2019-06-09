@@ -40,10 +40,12 @@ code {
 .flex-row{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .row {
   flex: 1;
   display: flex;
   flex-direction: column;
+  min-width: 300px;
 }
