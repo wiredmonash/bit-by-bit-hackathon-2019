@@ -187,7 +187,7 @@ function SponsorsSection() {
 								rel="noopener noreferrer"
 							>
 								<img
-									src="http://wired.org.au/assets/img/sponsor/facebook-logo.png"
+									src="./images/sponsors/facebook.png"
 									style={{ height: 30 }}
 									alt="Facebook"
 								/>
