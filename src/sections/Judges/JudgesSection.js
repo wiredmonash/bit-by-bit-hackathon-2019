@@ -62,7 +62,7 @@ function JudgesSection() {
 			<JudgesCard
 				type={JudgeTypes.PITCH}
 				name="Teresa Finlayson"
-				image="./images/judges/teresa.png"
+				image="./images/judges/teresa.jpg"
 				title="Deputy CIO"
 				company="Monash University"
 			/>
