@@ -29,6 +29,7 @@ function PrizesSection({ classes }) {
 		<>
 			<div style={{ width: '80%', padding: 10, maxWidth: '80vw' }}>
 				<h1 style={{ color: 'var(--primary-color)' }}>Prizes</h1>
+				<p>With a total prize pool of $1380!! What more do you want? </p>
 				<div style={{ display: 'flex', flexWrap: 'wrap' }}>
 					<div className={classes.division}>
 						<h2>First-Timer Division</h2>

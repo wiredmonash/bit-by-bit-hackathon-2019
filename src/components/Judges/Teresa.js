@@ -33,7 +33,7 @@ class TeresaF extends React.Component {
 		visible: false
 	};
 	render() {
-		const { fullScreen, classes } = this.props;
+		const { fullScreen, classes, imageUrl } = this.props;
 		return (
 			<>
 				<Button
@@ -54,23 +54,20 @@ class TeresaF extends React.Component {
 						<List>
 							<ListItem>
 								<ListItemAvatar className={classes.listItemAvatar}>
-									<Avatar
-										src="./images/judges/teresa.png"
-										className={classes.avatar}
-									/>
+									<Avatar src={imageUrl} className={classes.avatar} />
 								</ListItemAvatar>
 								<ListItemText
 									primary="Teresa Finlayson"
-									secondary="Deputy CIO, Monash University"
+									secondary="Interim CIO, Monash University"
 								/>
 							</ListItem>
 						</List>
 
 						<p>
-							Teresa Finlayson is the Deputy Chief Information Officer at Monash
-							University, with oversight of a large division that delivers
-							strategic projects across the institution, while embedding
-							contemporary project and business change methodologies.
+							Teresa Finlayson is the Interim Chief Information Officer at
+							Monash University, with oversight of a large division that
+							delivers strategic projects across the institution, while
+							embedding contemporary project and business change methodologies.
 						</p>
 						<p>
 							She is an experienced change management practitioner with over 14
