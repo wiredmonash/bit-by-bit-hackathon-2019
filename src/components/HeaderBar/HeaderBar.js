@@ -11,9 +11,9 @@ import MediaQuery from 'react-responsive';
 import ScheduleIcon from '@material-ui/icons/Schedule';
 import StarIcon from '@material-ui/icons/Star';
 import PeopleIcon from '@material-ui/icons/People';
-import EventIcon from '@material-ui/icons/Event';
+// import EventIcon from '@material-ui/icons/Event';
 
-import links from '../../constants/links';
+// import links from '../../constants/links';
 
 const styles = {
 	root: { marginBottom: 100 },
@@ -80,18 +80,6 @@ class HeaderBar extends React.Component {
 													<PeopleIcon className={classes.buttonIcon} />
 												)}
 												Judges
-											</Button>
-											<Button
-												color="primary"
-												variant="contained"
-												href={links.EVENTBRITE_LINK}
-												target="_blank"
-												rel="noopener noreferrer"
-											>
-												{matches && (
-													<EventIcon className={classes.buttonIcon} />
-												)}
-												Register
 											</Button>
 										</>
 									);

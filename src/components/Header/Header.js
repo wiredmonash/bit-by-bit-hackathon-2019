@@ -72,13 +72,6 @@ class Header extends React.Component {
 								Judges
 							</span>
 						</li>
-						<li>
-							<span class="nav-links">
-								<Button href="https://www.eventbrite.com.au/e/bit-by-bit-hackathon-2019-tickets-62415133344">
-									Buy Tickets
-								</Button>
-							</span>
-						</li>
 					</ul>
 				</div>
 			</nav>

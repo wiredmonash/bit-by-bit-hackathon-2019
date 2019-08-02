@@ -41,9 +41,11 @@ function Event({ event, key }) {
 				<div style={{ marginLeft: 15, ...eventStyle }}>
 					<div style={{ display: 'flex', alignItems: 'center' }}>
 						<h2 style={{ marginRight: 10 }}>{event.title}</h2>
-						<span>{`${moment(event.startTime).format('hh:mm a')} - ${moment(
+						<span>{`${moment(event.startTime).format('hh:mm a')} ${
 							event.endTime
-						).format('hh:mm a')}`}</span>
+								? `- ${moment(event.endTime).format('hh:mm a')}`
+								: ''
+						}`}</span>
 					</div>
 					<div>{event.shortDescrip}</div>
 				</div>

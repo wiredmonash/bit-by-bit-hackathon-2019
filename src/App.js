@@ -276,11 +276,15 @@ class App extends React.Component {
 											<TableBody>
 												<StyledTableRow>
 													<StyledTableCell>Technical Judging</StyledTableCell>
-													<StyledTableCell>TBA</StyledTableCell>
+													<StyledTableCell>
+														3 mins (Hard Deadline)
+													</StyledTableCell>
 												</StyledTableRow>
 												<StyledTableRow>
 													<StyledTableCell>Pitches Judging</StyledTableCell>
-													<StyledTableCell>TBA</StyledTableCell>
+													<StyledTableCell>
+														3 mins (hard deadline)
+													</StyledTableCell>
 												</StyledTableRow>
 											</TableBody>
 										</Table>

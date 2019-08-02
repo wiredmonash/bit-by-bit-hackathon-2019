@@ -1,6 +1,6 @@
 import React from 'react';
 import WiredLogo from '../../img/wired-logo.svg';
-import Button from './Button';
+// import Button from './Button';
 import links from '../../constants/links';
 
 function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
@@ -60,7 +60,7 @@ function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
 					}}
 				>
 					<a
-						href={links.EVENTBRITE_LINK}
+						href={links.BIT_BY_BIT_SLACK}
 						target="_blank"
 						rel="noopener noreferrer"
 						style={{
@@ -72,11 +72,23 @@ function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
 							margin: 5
 						}}
 					>
-						Register
+						Join the Slack
 					</a>
-					<Button onClick={handleScheduleClick}>View Schedule</Button>
-					<Button onClick={handlePrizes}>View Prizes</Button>
-					<Button onClick={handleJudges}>View Judges</Button>
+					<a
+						href={links.DEVPOST}
+						target="_blank"
+						rel="noopener noreferrer"
+						style={{
+							backgroundColor: 'var(--primary-color)',
+							color: 'var(--secondary-color)',
+							padding: 10,
+							fontWeight: 700,
+							textDecoration: 'none',
+							margin: 5
+						}}
+					>
+						Bit by Bit 2019 DevPost
+					</a>
 				</div>
 			</div>
 		</div>
