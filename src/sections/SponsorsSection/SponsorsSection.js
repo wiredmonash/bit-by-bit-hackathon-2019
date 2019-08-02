@@ -125,7 +125,17 @@ function SponsorsSection() {
 					<Divider className={classes.divider} />
 					<div>
 						<h2>Event Sponsors</h2>
-						<em>More event sponsors to be announced</em>
+						<a
+							href="https://github.com"
+							target="_blank"
+							rel="noreferrer noopener"
+						>
+							<img
+								src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+								style={{ height: 30 }}
+								alt="github"
+							/>{' '}
+						</a>
 					</div>
 					<Divider className={classes.divider} />
 					<div>

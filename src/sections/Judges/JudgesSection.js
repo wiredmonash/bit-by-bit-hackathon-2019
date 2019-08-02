@@ -3,6 +3,8 @@ import TeresaF from '../../components/Judges/Teresa';
 import { Card, CardContent, CardActions, Avatar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import PKHeng from '../../components/Judges/PKHeng';
+import CJRuggles from '../../components/Judges/CJRuggles';
+import EmmaGrecoModal from '../../components/Judges/EmmaGrecoModal';
 
 const useStyles = makeStyles({
 	card: {
@@ -61,6 +63,24 @@ function JudgesSection() {
 		<>
 			<h1>Judges</h1>
 			<div style={{ display: 'flex' }}>
+				<JudgesCard
+					type={JudgeTypes.TECH}
+					name="CJ Ruggles"
+					image="./images/judges/cj_profile_pic_2019.jpg"
+					title="Strategic Enterprise Architect"
+					company="ReeceTech, Reece Group"
+					more={
+						<CJRuggles imageUrl={'./images/judges/cj_profile_pic_2019.jpg'} />
+					}
+				/>
+				<JudgesCard
+					type={JudgeTypes.PITCH}
+					name="Emma Greco"
+					image="./images/judges/emma_greco.jpg"
+					title="Delivery Lead – Enterprise Customers"
+					company="ReeceTech, Reece Group"
+					more={<EmmaGrecoModal imageUrl={'./images/judges/emma_greco.jpg'} />}
+				/>
 				<JudgesCard
 					type={JudgeTypes.PITCH}
 					name="Teresa Finlayson"
