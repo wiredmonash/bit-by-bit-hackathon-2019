@@ -62,7 +62,7 @@ function JudgesSection() {
 	return (
 		<>
 			<h1>Judges</h1>
-			<div style={{ display: 'flex' }}>
+			<div style={{ display: 'flex', flexWrap: 'wrap' }}>
 				<JudgesCard
 					type={JudgeTypes.TECH}
 					name="CJ Ruggles"
