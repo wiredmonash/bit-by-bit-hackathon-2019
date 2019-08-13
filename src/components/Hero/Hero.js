@@ -89,6 +89,21 @@ function Hero({ handlePrizes, handleScheduleClick, handleJudges, handleTeam }) {
 					>
 						Bit by Bit 2019 DevPost
 					</a>
+					<a
+						href="https://www.notion.so/bbb2019/Bit-by-Bit-2019-Hackathon-Guide-b22bd2a2c65d4563939fa944dd4f9910"
+						target="_blank"
+						rel="noopener noreferrer"
+						style={{
+							backgroundColor: 'var(--primary-color)',
+							color: 'var(--secondary-color)',
+							padding: 10,
+							fontWeight: 700,
+							textDecoration: 'none',
+							margin: 5
+						}}
+					>
+						Hack Guide
+					</a>
 				</div>
 			</div>
 		</div>
