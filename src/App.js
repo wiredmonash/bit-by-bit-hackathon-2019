@@ -209,8 +209,28 @@ class App extends React.Component {
 							<div style={{ width: '80%', padding: 10 }}>
 								<h1 style={{ color: 'var(--primary-color)' }}>Team</h1>
 								<h2>MC</h2>
-								<div>
-									<em>MC to be announced</em>
+								<div style={{ display: 'flex', flexWrap: 'wrap' }}>
+									<img
+										src="./images/terence.jpg"
+										style={{
+											width: 100,
+											borderRadius: '100%',
+											marginRight: 10
+										}}
+										alt="Terence"
+									/>
+									<div>
+										<h3>Terence Huynh</h3>
+										<em>
+											Terence Huynh is a Software Engineer and the founder of
+											UNIHACK, Australia's largest student hackathon. He
+											currently works at Localz, a Melbourne-based startup, as a
+											full-stack engineer working across their portfolio of
+											backend, frontend and mobile applications. He is also
+											active in the tech community as a speaker and one of the
+											organisers of Junior Developers Melbourne.
+										</em>
+									</div>
 								</div>
 								<h2>Event Leads</h2>
 								<div className="flex-row">
