@@ -97,6 +97,29 @@ class App extends React.Component {
 								handleTeam={() => this.scroll(this.team)}
 							/>
 						</div>
+						<hr />
+						<div
+							style={{
+								backgroundColor: 'var(--secondary-color)',
+								color: 'var(--primary-color)',
+								padding: '10px 12px',
+								display: 'flex',
+								flexDirection: 'column',
+								alignItems: 'center',
+								flex: 1
+							}}
+						>
+							<h1 style={{ color: 'var(--primary-color)' }}>Live Stream</h1>
+							<iframe
+								width="640"
+								height="360"
+								src="https://www.youtube.com/embed/-rqfrH1Grzw"
+								frameborder="0"
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+								title="Pitching Live Stream"
+							/>
+						</div>
 						<div
 							style={{
 								backgroundColor: 'var(--primary-color)',
