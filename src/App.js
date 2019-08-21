@@ -241,15 +241,9 @@ class App extends React.Component {
 										</span>
 									</div>
 									<div className="row">
-										<h3>Event Lead #2</h3>
+										<h3>Ishan Joshi</h3>
 										<span>
-											<em>Title</em> <br />
-										</span>
-									</div>
-									<div className="row">
-										<h3>Event Lead #2</h3>
-										<span>
-											<em>Title</em> <br />
+											<em>Education Officer</em> <br />
 										</span>
 									</div>
 								</div>
