@@ -89,7 +89,7 @@ function JudgesSection() {
 				style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
 			>
 				<JudgesCard
-					type={JudgeTypes.TECH}
+					type={JudgeTypes.PITCH}
 					firstName="CJ"
 					lastName="Ruggles"
 					image="./images/judges/cj_profile_pic_2019.jpg"
@@ -245,8 +245,47 @@ function JudgesSection() {
 						Source Software as a way to give back to the community.
 					</p>
 				</JudgesCard>
+				<JudgesCard
+					type={JudgeTypes.TECH}
+					firstName="Ghina"
+					lastName="Yashar"
+					image="./images/judges/Ghina_Yashar.jpg"
+					title="Graduate Software Engineer"
+					company="REA Group"
+					socials={['https://www.linkedin.com/in/ghina-yashar/']}
+				>
+					<p>
+						Ghina’s a current Engineering Grad at REA Group who’s spent her last
+						few months in the mobile space and with the Flatmates product. As a
+						recent Monash and Wired Alumni, Ghina will be a familiar face to
+						many participating at Bit by Bit. What to ask Ghina about? Anything
+						about a career as a mobile dev. What not to ask Ghina about? How
+						Ghina claims to have been the CFO of REA Group for a few days.
+					</p>
+				</JudgesCard>
+				<JudgesCard
+					type={JudgeTypes.TECH}
+					firstName="Justin"
+					lastName="Walton"
+					image="./images/judges/Justin_Walton.jpg"
+					title="Software Engineer Intern"
+					company="NAB"
+					socials={['https://www.linkedin.com/in/justinlewiswalton/']}
+				>
+					<p>
+						Justin is currently in his fourth year of study at Monash
+						University. Alongside his university studies, Justin currently works
+						work at National Australia Bank as an Intern Software Engineer. He
+						love all things tech, and am always pushing himself to learn more
+						about technology.
+					</p>
+					<p>
+						Some areas of interest include data analytics and cloud computing.
+						Sports, automotive work and gaming are other hobbies of mine. if you
+						see him, don't be afraid to say hi!
+					</p>
+				</JudgesCard>
 			</div>
-			<em>More judges to be announced soon...</em>
 		</>
 	);
 }

@@ -69,7 +69,7 @@ class JudgeModal extends React.Component {
 								</ListItemAvatar>
 								<ListItemText
 									primary={`${firstName} ${lastName}`}
-									secondary={`${title} ${company}`}
+									secondary={`${title}, ${company}`}
 								/>
 							</ListItem>
 						</List>
