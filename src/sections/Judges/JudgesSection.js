@@ -268,16 +268,16 @@ function JudgesSection() {
 					firstName="Justin"
 					lastName="Walton"
 					image="./images/judges/Justin_Walton.jpg"
-					title="Software Engineer Intern"
+					title="Software Engineer"
 					company="NAB"
 					socials={['https://www.linkedin.com/in/justinlewiswalton/']}
 				>
 					<p>
 						Justin is currently in his fourth year of study at Monash
 						University. Alongside his university studies, Justin currently works
-						work at National Australia Bank as an Intern Software Engineer. He
-						love all things tech, and am always pushing himself to learn more
-						about technology.
+						at National Australia Bank as an Software Engineer. He love all
+						things tech, and am always pushing himself to learn more about
+						technology.
 					</p>
 					<p>
 						Some areas of interest include data analytics and cloud computing.
