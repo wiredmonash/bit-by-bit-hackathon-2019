@@ -263,28 +263,6 @@ function JudgesSection() {
 						Ghina claims to have been the CFO of REA Group for a few days.
 					</p>
 				</JudgesCard>
-				<JudgesCard
-					type={JudgeTypes.TECH}
-					firstName="Justin"
-					lastName="Walton"
-					image="./images/judges/Justin_Walton.jpg"
-					title="Software Engineer"
-					company="NAB"
-					socials={['https://www.linkedin.com/in/justinlewiswalton/']}
-				>
-					<p>
-						Justin is currently in his fourth year of study at Monash
-						University. Alongside his university studies, Justin currently works
-						at National Australia Bank as an Software Engineer. He love all
-						things tech, and am always pushing himself to learn more about
-						technology.
-					</p>
-					<p>
-						Some areas of interest include data analytics and cloud computing.
-						Sports, automotive work and gaming are other hobbies of mine. if you
-						see him, don't be afraid to say hi!
-					</p>
-				</JudgesCard>
 			</div>
 		</>
 	);
