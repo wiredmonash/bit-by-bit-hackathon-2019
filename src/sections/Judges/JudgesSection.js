@@ -89,7 +89,7 @@ function JudgesSection() {
 				style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
 			>
 				<JudgesCard
-					type={JudgeTypes.PITCH}
+					type={JudgeTypes.TECH}
 					firstName="CJ"
 					lastName="Ruggles"
 					image="./images/judges/cj_profile_pic_2019.jpg"
@@ -261,6 +261,29 @@ function JudgesSection() {
 						many participating at Bit by Bit. What to ask Ghina about? Anything
 						about a career as a mobile dev. What not to ask Ghina about? How
 						Ghina claims to have been the CFO of REA Group for a few days.
+					</p>
+				</JudgesCard>
+
+				<JudgesCard
+					type={JudgeTypes.TECH}
+					firstName="Joshua"
+					lastName="Mashman"
+					image="./images/judges/Josh_Mashman.jpg"
+					title="Senior Developer"
+					company="National Australia Bank"
+					socials={['https://www.linkedin.com/in/joshua-mashman-3a21b823/']}
+				>
+					<p>
+						Josh is a senior engineer at the National Australia Bank. He has
+						delivered software projects across credit risk and banker operations
+						and was the winner of last year’s NAB Innovation Shark Tank. Josh is
+						passionate about cloud enablement and building great user
+						experiences.
+					</p>
+					<p>
+						Josh graduated from the University of Tasmania with a Bachelor of
+						Science, and has worked in various technical roles for banking,
+						maritime and engineering firms.
 					</p>
 				</JudgesCard>
 			</div>
