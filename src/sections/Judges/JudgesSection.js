@@ -268,7 +268,7 @@ function JudgesSection() {
 					type={JudgeTypes.TECH}
 					firstName="Joshua"
 					lastName="Mashman"
-					image="./images/judges/Josh_Mashman.jpg"
+					image="./images/judges/Josh_Mashman.png"
 					title="Senior Developer"
 					company="National Australia Bank"
 					socials={['https://www.linkedin.com/in/joshua-mashman-3a21b823/']}
