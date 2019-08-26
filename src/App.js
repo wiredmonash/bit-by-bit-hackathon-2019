@@ -119,6 +119,24 @@ class App extends React.Component {
 								allowfullscreen
 								title="Pitching Live Stream"
 							/>
+							<h1 style={{ color: 'var(--primary-color)' }}>
+								Winners have been Announced!
+							</h1>
+							<a
+								href={'https://bbb2019.devpost.com/submissions'}
+								target="_blank"
+								rel="noopener noreferrer"
+								style={{
+									backgroundColor: 'var(--primary-color)',
+									color: 'var(--secondary-color)',
+									padding: 10,
+									fontWeight: 700,
+									textDecoration: 'none',
+									margin: 5
+								}}
+							>
+								Click here to view all submissions and the winenrs
+							</a>
 						</div>
 						<div
 							style={{
