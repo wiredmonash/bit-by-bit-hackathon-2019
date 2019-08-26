@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent, CardActions, Avatar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
-import JudgeModal from '../../components/Judges/JudgeModal';
+import JudgeModal from '../../components/JudgeModal';
 
 const useStyles = makeStyles({
 	card: {
@@ -268,7 +268,7 @@ function JudgesSection() {
 					type={JudgeTypes.TECH}
 					firstName="Joshua"
 					lastName="Mashman"
-					image="./images/judges/Josh_Mashman.png"
+					image="./images/judges/Josh_Mashman.jpg"
 					title="Senior Developer"
 					company="National Australia Bank"
 					socials={['https://www.linkedin.com/in/joshua-mashman-3a21b823/']}
